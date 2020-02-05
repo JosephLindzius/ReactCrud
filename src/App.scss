@@ -1,0 +1,36 @@
+.contactUs {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  font-size: 4em;
+  text-align: center;
+
+
+  a, a:visited {
+    left: 30px;
+    padding: 4px;
+    color: rgba(226, 255, 177, 1);
+    cursor: pointer;
+  }
+
+  a:active {
+    padding: 4px;
+    color:  rgba(226, 255, 177, 1);
+    cursor: pointer;
+  }
+
+}
+
+.canvasContainer{
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  .homepageCanvas {
+
+    background: black;
+  }
+}
+
+
